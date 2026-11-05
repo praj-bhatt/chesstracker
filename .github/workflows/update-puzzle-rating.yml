@@ -1,14 +1,13 @@
 name: Update Chess.com puzzle rating
 
 on:
-  # Collect immediately when the project is first pushed to its main branch.
   push:
     branches:
       - main
+
   schedule:
-    # 03:17 UTC daily = 08:47 IST. Avoid the top of the hour; GitHub may still delay jobs.
-    - cron: "17 3 * * *"
-  # Allows an on-demand refresh from Actions -> Update Chess.com puzzle rating -> Run workflow.
+    - cron: "30 3 * * *"
+
   workflow_dispatch:
 
 permissions:
