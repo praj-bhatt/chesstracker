@@ -1,8 +1,8 @@
 {
   "username": "praj-bhatt",
-  "rating": null,
-  "timestamp_utc": null,
-  "source": null,
+  "rating": 1242,
+  "timestamp_utc": "2026-11-05T11:03:42Z",
+  "source": "https://www.chess.com/callback/stats/tactics2/new/puzzles/praj-bhatt",
   "profile_url": "https://www.chess.com/member/praj-bhatt/stats/puzzles?time=0",
-  "status": "No successful automated sample yet"
+  "status": "ok"
 }
